@@ -9,6 +9,6 @@ This project walk through how you can generate a simple CRUD using flask python 
 - Activate virtual environment (Windows: `venv\Scripts\activate`, Linux/Mac: `. venv/bin/activate`)
 - Install dependecies using command `pip install -e .`
 - Init database (Windows: run file **__init_db__.bat**, Linux/Mac: `flask --app flaskr init-db`)
-- Run the application and hit on [localhost](http://localhost:8080) (Windows: run file **__init_db__.bat**, Linux/Mac: `flask run --debug --port 8080`)
+- Run the application and hit on [localhost](http://localhost:8080) (Windows: run file **__init__.bat**, Linux/Mac: `flask run --debug --port 8080`)
 
 Application is ready to use.
