@@ -9,7 +9,7 @@ from flaskr.templates.__blueprints.blog import bp as blog_bp
 def create_app(test_config = None):
     app = Flask(__name__, instance_relative_config = True)
     app.config.from_mapping(
-        SECRET_KEY = 'dev',
+        #SECRET_KEY = app.config['SECRET_KEY'],
         DATABASE = os.path.join(app.instance_path, 'flaskr.sqlite')
     )
 
