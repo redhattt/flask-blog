@@ -1,4 +1,4 @@
-# Flask BLog
+# Flask Blog
 ---
 This project walk through how you can generate a simple CRUD using flask python framework.
 
